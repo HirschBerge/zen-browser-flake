@@ -4,7 +4,6 @@
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs?ref=nixos-unstable";
   };
-
   outputs = {
     self,
     nixpkgs,
@@ -14,7 +13,7 @@
     downloadUrl = {
       "x86" = {
         url = "https://github.com/zen-browser/desktop/releases/download/${version}/zen.linux-x86_64.tar.xz";
-        sha256 = "sha256:1a5mx617qf3ykrkdfcgafvllzkcwsq5fvlavngx629hmah747kni";
+        sha256 = "sha256:1k27vl9b2y87skwy1mg955n74x504dvz7w3r2yxir6ib2srnslzi";
       };
       "aarch64" = {
         url = "https://github.com/zen-browser/desktop/releases/download/${version}/zen.linux-aarch64.tar.xz";

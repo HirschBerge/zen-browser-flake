@@ -10,8 +10,8 @@ compute_sha() {
 read -rp "Please enter the version number: " version
 
 # Construct URLs
-url_x86="https://github.com/zen-browser/desktop/releases/download/${version}/zen.linux-aarch64.tar.xz"
-url_aarch="https://github.com/zen-browser/desktop/releases/download/${version}/zen.linux-x86_64.tar.xz"
+url_aarch="https://github.com/zen-browser/desktop/releases/download/${version}/zen.linux-aarch64.tar.xz"
+url_x86="https://github.com/zen-browser/desktop/releases/download/${version}/zen.linux-x86_64.tar.xz"
 
 # Compute SHA hashes
 sha_x86=$(compute_sha "$url_x86")

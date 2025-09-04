@@ -9,7 +9,7 @@
     nixpkgs,
   }: let
     system = "x86_64-linux";
-    version = "1.14.11b";
+    version = "1.15.2b";
     downloadUrl = {
       "x86" = {
         url = "https://github.com/zen-browser/desktop/releases/download/${version}/zen.linux-x86_64.tar.xz";
